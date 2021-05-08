@@ -15,7 +15,7 @@ function buttonOne () {
 function buttonTwo () {
   diameter = document.getElementById('d').value
   diameter = parseInt(diameter)
-  number = ( 3.14 * ( diameter * diameter) / 4) 
+  number = (3.14 * (diameter * diameter) / 4)
 
   alert(number)
 }
